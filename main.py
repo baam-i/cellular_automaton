@@ -10,7 +10,6 @@ root.withdraw()
 size = width, height = 1000, 564
 BLACK = (0,0,0)
 WHITE = (255,255,255)
-GRAY = (92,92,92)
 
 def mouse_click(world:automaton, mouse_x:int, mouse_y:int) -> None:
     x = int(mouse_x / 10)
