@@ -6,7 +6,7 @@ Users can draw directly on the grid by clicking cells, start and pause the simul
 
 This project serves as both an educational tool and a creative playground to explore the fascinating behavior of emergent systems and self-organization in cellular automata.
 
-/assets/example.mp4
+/example.mp4
 
 <video src="assets/example.mp4" width="600" controls>
   Your browser does not support the video tag.
