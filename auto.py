@@ -66,8 +66,8 @@ class automaton:
                 if current == self.LIVE:
                     pygame.draw.rect(context, (255,255,255), (x*10, y*10, 10, 10))
                 else:
-                    pygame.draw.rect(context, (32,32,32), (x*10, y*10, 10, 10))
-                    pygame.draw.rect(context, (64,64,64), (x*10, y*10, 10, 10), 1)
+                    pygame.draw.rect(context, (15,15,15), (x*10, y*10, 10, 10))
+                    pygame.draw.rect(context, (30,30,30), (x*10, y*10, 10, 10), 1)
 
     def save(self, filename:str) -> None:
         with open(filename, mode="w", encoding="utf-8") as fp:
