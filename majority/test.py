@@ -12,7 +12,7 @@ def sierpinski_rule90(n=32):
             left = row[i-1]
             right = row[i+1]
             suma = left + actual + right
-            if suma == 1: 
+            if suma == 2: 
                 new_row[i] = 1  # rule: exactly one
             else:
                 new_row[i] = 0 

@@ -1,3 +1,4 @@
 /venv
-/conway/__pycache__
-/majority/__pycache__
+/*/__pycache__/
+/majority/__pycache__/
+/*.zip
