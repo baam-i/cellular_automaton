@@ -25,9 +25,11 @@ class automaton:
         self.__world = [0] * (self.WIDTH * self.HEIGHT)
         self.__next = [0] * (self.WIDTH * self.HEIGHT)
 
-        # punto inicial (un uno solo en el centro)
+        # dos puntos iniciales (dos puntos en el centro)
         mid = self.WIDTH // 2
         self.write(mid, 0, 1)
+        self.write(mid-4, 0, 1)
+        self.write(mid+1, 0, 1)
 
     def read(self, x:int, y:int) -> int:
         if x >= self.WIDTH: x -= self.WIDTH
